@@ -38,16 +38,9 @@ body {
   flex-direction: column;
 }
 
-.sidebar-bottom {
-  display: flex;
-  flex-direction: column;
-  /* position: absolute;
-  bottom: 0px; */
-}
-
 .content {
   display: flex;
-  text-align: justify;
+  text-align: justify
 }
 
 a {
