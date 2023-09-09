@@ -47,8 +47,7 @@ body {
 
 .content {
   display: flex;
-  flex-wrap: nowrap;
-  text-align: block;
+  text-align: justify;
 }
 
 a {
