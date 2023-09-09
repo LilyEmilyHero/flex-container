@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
@@ -16,12 +17,38 @@ body {
 
 .layout {
   min-height: 100vh;
+
+  display: flex;
 }
 
 .sidebar {
   background-color: #f2f3ff;
   padding: 0.5rem;
   box-shadow: 1px 0px 8px #c2d1dd;
+
+
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  justify-content: space-between;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  bottom: 0px; */
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: block;
 }
 
 a {
